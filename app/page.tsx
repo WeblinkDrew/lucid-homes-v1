@@ -9,6 +9,7 @@ import { FadeIn, FadeInStagger, FadeInItem } from "@/components/ui/fade-in";
 import { HeroImage } from "@/components/hero-image";
 import { SiteHeader } from "@/components/site-header"; // Assuming SiteHeader is in components/site-header
 import { SmoothScrollLink } from "@/components/smooth-scroll-nav";
+import { ImageCarousel } from "@/components/image-carousel";
 
 export default function Home() {
   return (
@@ -205,17 +206,21 @@ export default function Home() {
           </FadeIn>
         </section>
 
+
+
         {/* Feature Split Section */}
         <section id="features" className="py-[100px]">
           <FadeIn>
             <div className="bg-white rounded-[24px] p-8 md:p-12 border border-black/5">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="relative h-[500px] rounded-[24px] overflow-hidden">
-                  <Image
-                    src="/Properties/Old Church Rd Caledon.webp"
-                    alt="Interior Design"
-                    fill
-                    className="object-cover"
+                  <ImageCarousel
+                    images={[
+                      "/Properties/Old Church Rd Caledon.webp",
+                      "/Properties/Highcrest Rd 3.webp",
+                      "/Properties/Chinguacousy.webp",
+                      "/Properties/Mono Amaranth.webp"
+                    ]}
                   />
                 </div>
                 <div className="space-y-8">
@@ -381,14 +386,21 @@ export default function Home() {
           </FadeInStagger>
         </section>
 
-        {/* CTA Section */}
-        <section className="relative rounded-[24px] overflow-hidden bg-[#343d41] text-white py-[100px] px-6 text-center">
+        <section className="relative rounded-[24px] overflow-hidden py-[100px] px-6 text-center">
+          <Image
+            src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg"
+            alt="Pexels Forest Background"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-black/60" />
+
           <FadeIn>
             <div className="relative z-10 max-w-2xl mx-auto space-y-8">
-              <h2 className="text-[32px] md:text-[48px] font-light leading-[1.21]">
+              <h2 className="text-[32px] md:text-[48px] font-light leading-[1.21] text-white">
                 Ready to design your dream home?
               </h2>
-              <p className="text-white/70 text-[16px] md:text-[18px] font-light">
+              <p className="text-white/80 text-[16px] md:text-[18px] font-light">
                 Let's bring your vision to life. Schedule a consultation and discover how our bespoke design process creates homes that stand the test of time.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto bg-white/10 p-2 rounded-[24px] sm:rounded-full backdrop-blur-sm border border-white/10">
@@ -402,7 +414,6 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            {/* Abstract Background Shapes Removed */}
           </FadeIn>
         </section>
 
