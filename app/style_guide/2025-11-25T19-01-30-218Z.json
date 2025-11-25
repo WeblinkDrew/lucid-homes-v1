@@ -1,0 +1,569 @@
+{
+  "url": "https://fazora.webflow.io/",
+  "extractedAt": "2025-11-25T19:01:30.216Z",
+  "logo": {
+    "source": "img",
+    "url": "https://cdn.prod.website-files.com/68c0e3e4af3be748783bb0f3/68c0fe6624508c7f0f8a163e_c230208425afdc760621f0c683c3f941_Logo%20%285%29.svg",
+    "width": 108,
+    "height": 37,
+    "alt": "",
+    "safeZone": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "favicons": [
+    {
+      "type": "shortcut icon",
+      "url": "https://cdn.prod.website-files.com/68c0e3e4af3be748783bb0f3/68c0e3e4af3be748783bb494_Logo%20(15).png",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://cdn.prod.website-files.com/68c0e3e4af3be748783bb0f3/68c0e3e4af3be748783bb4a8_Logo%20(16).png",
+      "sizes": null
+    },
+    {
+      "type": "apple-touch-icon",
+      "url": "https://cdn.prod.website-files.com/68c0e3e4af3be748783bb0f3/68c0e3e4af3be748783bb4a8_Logo%20(16).png",
+      "sizes": null
+    },
+    {
+      "type": "og:image",
+      "url": "https://cdn.prod.website-files.com/68c0e3e4af3be748783bb0f3/68c2575717322045d5a315c5_332e0089aa46fc1ac1804e03820411a1_Rectangle%206.png",
+      "sizes": null
+    },
+    {
+      "type": "favicon.ico",
+      "url": "https://fazora.webflow.io/favicon.ico",
+      "sizes": null
+    }
+  ],
+  "colors": {
+    "semantic": {
+      "secondary": "rgb(255, 255, 255)"
+    },
+    "palette": [
+      {
+        "color": "rgba(255, 255, 255, 0)",
+        "normalized": "#ffffff",
+        "count": 220,
+        "confidence": "high",
+        "sources": [
+          "header",
+          "button",
+          "navbar-link-2"
+        ]
+      },
+      {
+        "color": "rgb(52, 61, 65)",
+        "normalized": "#343d41",
+        "count": 189,
+        "confidence": "high",
+        "sources": [
+          "navbar-brand",
+          "button"
+        ]
+      },
+      {
+        "color": "rgb(108, 112, 114)",
+        "normalized": "#6c7072",
+        "count": 85,
+        "confidence": "high",
+        "sources": [
+          "button"
+        ]
+      },
+      {
+        "color": "rgb(28, 30, 31)",
+        "normalized": "#1c1e1f",
+        "count": 49,
+        "confidence": "high",
+        "sources": [
+          "logo"
+        ]
+      },
+      {
+        "color": "rgb(202, 203, 212)",
+        "normalized": "#cacbd4",
+        "count": 10,
+        "confidence": "medium",
+        "sources": [
+          "navbar-link-2",
+          "navbar-link"
+        ]
+      },
+      {
+        "color": "rgba(34, 33, 51, 0)",
+        "normalized": "#222133",
+        "count": 10,
+        "confidence": "medium",
+        "sources": [
+          "section"
+        ]
+      },
+      {
+        "color": "rgb(17, 20, 24)",
+        "normalized": "#111418",
+        "count": 8,
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "normalized": "#000000",
+        "count": 7,
+        "confidence": "medium",
+        "sources": []
+      },
+      {
+        "color": "rgb(249, 249, 249)",
+        "normalized": "#f9f9f9",
+        "count": 1,
+        "confidence": "medium",
+        "sources": [
+          "hover/focus"
+        ]
+      }
+    ],
+    "cssVariables": {
+      "--_color-guide---neutral--400": "#84889a",
+      "--_color-guide---red--background": "#fdf2f2",
+      "--_color-guide---orange--base": "#f6a94c",
+      "--_color-guide---green--light": "#9cd3b4",
+      "--_color-guide---global-style--transparant": "#11141800",
+      "--_color-guide---red--light": "#f19e9d",
+      "--_color-guide---red--darker": "#872522",
+      "--_color-guide---global-style--button-secondary": "#fff",
+      "--_color-guide---orange--background": "#fef7f1",
+      "--_color-guide---orange--lighter": "#fce5d4",
+      "--_color-guide---global-style--badge": "white",
+      "--_color-guide---orange--darker": "#8c612b",
+      "--_color-guide---orange--dark": "#c98b40",
+      "--_color-guide---neutral--100": "#f1f1f1",
+      "--_color-guide---red--lighter": "#f8d4d3",
+      "--_color-guide---green--background": "#f1f8f4",
+      "--_color-guide---green--base": "#3ebb7f",
+      "--_color-guide---green--dark": "#339968",
+      "--_color-guide---red--base": "#e9423a",
+      "--_color-guide---red--dark": "#bc362f",
+      "--_color-guide---green--darker": "#246b49",
+      "--_color-guide---neutral--600": "#3e404c",
+      "--_color-guide---green--lighter": "#d2e9dc",
+      "--_color-guide---orange--light": "#f9c99f",
+      "--_color-guide---neutral--200": "#ebebef",
+      "--_color-guide---neutral--500": "#606476"
+    }
+  },
+  "typography": {
+    "styles": [
+      {
+        "context": "heading-1",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "48px (3.00rem)",
+        "weight": 300,
+        "lineHeight": "1.21",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Arial",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "40px (2.50rem)",
+        "weight": 400,
+        "lineHeight": "0.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "38px (2.38rem)",
+        "weight": 300,
+        "lineHeight": "1.21",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "32px (2.00rem)",
+        "weight": 300,
+        "lineHeight": "1.25",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 300,
+        "lineHeight": "1.22",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "18px (1.13rem)",
+        "weight": 400,
+        "lineHeight": "1.44",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 400,
+        "lineHeight": "1.50",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "heading-1",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "16px (1.00rem)",
+        "weight": 300,
+        "lineHeight": "1.38",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "link",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 300,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Arial",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "caption",
+        "family": "Manrope",
+        "fallbacks": null,
+        "size": "14px (0.88rem)",
+        "weight": 300,
+        "lineHeight": "1.00",
+        "spacing": null,
+        "transform": null
+      },
+      {
+        "context": "button",
+        "family": "Arial",
+        "fallbacks": "Helvetica Neue, Helvetica",
+        "size": "14px (0.88rem)",
+        "weight": 400,
+        "lineHeight": "1.43",
+        "spacing": null,
+        "transform": null
+      }
+    ],
+    "sources": {
+      "googleFonts": [
+        "Manrope"
+      ],
+      "adobeFonts": false,
+      "variableFonts": false
+    }
+  },
+  "spacing": {
+    "scaleType": "8px",
+    "commonValues": [
+      {
+        "px": "3px",
+        "rem": "0.19rem",
+        "count": 12,
+        "numericValue": 3
+      },
+      {
+        "px": "4px",
+        "rem": "0.25rem",
+        "count": 36,
+        "numericValue": 4
+      },
+      {
+        "px": "5px",
+        "rem": "0.31rem",
+        "count": 2,
+        "numericValue": 5
+      },
+      {
+        "px": "7px",
+        "rem": "0.44rem",
+        "count": 4,
+        "numericValue": 7
+      },
+      {
+        "px": "8px",
+        "rem": "0.50rem",
+        "count": 100,
+        "numericValue": 8
+      },
+      {
+        "px": "9px",
+        "rem": "0.56rem",
+        "count": 12,
+        "numericValue": 9
+      },
+      {
+        "px": "10px",
+        "rem": "0.63rem",
+        "count": 8,
+        "numericValue": 10
+      },
+      {
+        "px": "11px",
+        "rem": "0.69rem",
+        "count": 14,
+        "numericValue": 11
+      },
+      {
+        "px": "12px",
+        "rem": "0.75rem",
+        "count": 22,
+        "numericValue": 12
+      },
+      {
+        "px": "20px",
+        "rem": "1.25rem",
+        "count": 6,
+        "numericValue": 20
+      },
+      {
+        "px": "24px",
+        "rem": "1.50rem",
+        "count": 66,
+        "numericValue": 24
+      },
+      {
+        "px": "34px",
+        "rem": "2.13rem",
+        "count": 6,
+        "numericValue": 34
+      },
+      {
+        "px": "100px",
+        "rem": "6.25rem",
+        "count": 19,
+        "numericValue": 100
+      },
+      {
+        "px": "500px",
+        "rem": "31.25rem",
+        "count": 2,
+        "numericValue": 500
+      }
+    ]
+  },
+  "borderRadius": {
+    "values": [
+      {
+        "value": "0px 0px 24px 24px",
+        "count": 12,
+        "confidence": "high",
+        "numericValue": 0
+      },
+      {
+        "value": "20px",
+        "count": 1,
+        "confidence": "low",
+        "numericValue": 20
+      },
+      {
+        "value": "24px",
+        "count": 48,
+        "confidence": "high",
+        "numericValue": 24
+      },
+      {
+        "value": "26px",
+        "count": 24,
+        "confidence": "high",
+        "numericValue": 26
+      },
+      {
+        "value": "40px",
+        "count": 6,
+        "confidence": "medium",
+        "numericValue": 40
+      },
+      {
+        "value": "99px",
+        "count": 34,
+        "confidence": "high",
+        "numericValue": 99
+      },
+      {
+        "value": "999px",
+        "count": 2,
+        "confidence": "low",
+        "numericValue": 999
+      },
+      {
+        "value": "100%",
+        "count": 4,
+        "confidence": "medium",
+        "numericValue": 100
+      }
+    ]
+  },
+  "borders": {
+    "widths": [],
+    "styles": [
+      {
+        "value": "solid",
+        "count": 10,
+        "confidence": "medium"
+      }
+    ],
+    "colors": []
+  },
+  "shadows": [
+    {
+      "shadow": "rgba(51, 51, 51, 0.4) 0px 0px 3px 0px",
+      "count": 4,
+      "confidence": "medium"
+    },
+    {
+      "shadow": "rgba(116, 114, 114, 0.06) 0px 2px 13px 4px, rgba(250, 250, 250, 0.36) 0px 3px 7px 0px inset",
+      "count": 1,
+      "confidence": "low"
+    }
+  ],
+  "components": {
+    "buttons": [
+      {
+        "backgroundColor": "rgb(52, 61, 65)",
+        "color": "rgb(255, 255, 255)",
+        "padding": "9px 24px",
+        "borderRadius": "99px",
+        "border": "0px none rgb(249, 231, 234)",
+        "fontWeight": "300",
+        "fontSize": "14px",
+        "classes": "button w-button",
+        "confidence": "medium"
+      },
+      {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(108, 112, 114)",
+        "padding": "9px 20px",
+        "borderRadius": "99px",
+        "border": "0px none rgb(235, 235, 239)",
+        "fontWeight": "300",
+        "fontSize": "14px",
+        "classes": "button secondary w-button",
+        "confidence": "medium"
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 0.4)",
+        "color": "rgb(51, 51, 51)",
+        "padding": "0px",
+        "borderRadius": "100%",
+        "border": "0px none rgb(51, 51, 51)",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "classes": "w-slider-dot",
+        "confidence": "high"
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 0.655)",
+        "color": "rgb(51, 51, 51)",
+        "padding": "0px",
+        "borderRadius": "100%",
+        "border": "0px none rgb(51, 51, 51)",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "classes": "w-slider-dot",
+        "confidence": "high"
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 0.745)",
+        "color": "rgb(51, 51, 51)",
+        "padding": "0px",
+        "borderRadius": "100%",
+        "border": "0px none rgb(51, 51, 51)",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "classes": "w-slider-dot w-active",
+        "confidence": "high"
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderRadius": "999px",
+        "padding": "0px 12px",
+        "backgroundColor": "rgb(249, 249, 249)",
+        "focusStyles": {
+          "outline": "rgb(249, 249, 249) none 0px"
+        }
+      }
+    ],
+    "links": [
+      {
+        "color": "rgb(52, 61, 65)",
+        "textDecoration": "none",
+        "fontWeight": "400",
+        "hoverColor": null,
+        "hoverDecoration": null
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none",
+        "fontWeight": "300",
+        "hoverColor": null,
+        "hoverDecoration": null
+      },
+      {
+        "color": "rgb(202, 203, 212)",
+        "textDecoration": "none",
+        "fontWeight": "300",
+        "hoverColor": null,
+        "hoverDecoration": null
+      },
+      {
+        "color": "rgb(108, 112, 114)",
+        "textDecoration": "none",
+        "fontWeight": "300",
+        "hoverColor": null,
+        "hoverDecoration": null
+      }
+    ]
+  },
+  "breakpoints": [],
+  "iconSystem": [],
+  "frameworks": []
+}
